@@ -9,7 +9,6 @@ const chalk = require("chalk");
 const options = {
   padding: 1,
   margin: 1,
-  // backgroundColor: '#e7fafa',
   borderStyle: "round",
 };
 
