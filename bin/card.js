@@ -21,6 +21,6 @@ const cardText = chalk`{hex('#fefeff').bold Lashaunna Samuels }
   {hex('#fefeff').bold Github:} {hex('#87f1ff') https://github.com/LashaunnaS}
   {hex('#fefeff').bold LinkedIn:} {hex('#87f1ff') https://www.linkedin.com/in/lashaunna-samuels/}
 
-  {hex('#dfe5db').bold Card:} {hex('#87f1ff') npx Lashaunna}`;
+  {hex('#dfe5db').bold Card:} {hex('#87f1ff') npx lashaunna}`;
 
 console.log(chalk.hex("#65a542")(boxen(cardText, options)));

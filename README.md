@@ -5,5 +5,5 @@ Lashaunna here!
 Via npx:
 
 ```
-npx Lashaunna
+npx lashaunna
 ```
