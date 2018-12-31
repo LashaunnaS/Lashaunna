@@ -14,12 +14,12 @@ const options = {
 
 const cardText = chalk`{hex('#FFEFD5') Lashaunna Samuels /} {hex('#00BFFF') @}
 
-     {hex('#FFEFD5').bold Work: } {hex('#FFEFD5') Wandering Web Engineer}
-      {hex('#FFEFD5').bold NPM: } {hex('#00BFFF') https://www.npmjs.com/~dyyyl}
-  {hex('#FFEFD5').bold Twitter: } {hex('#00BFFF') https://twitter.com/dyyyyyyyyyl}
+     {hex('#FFEFD5').bold Work: } {hex('#FFEFD5') Curious Web Engineer}
+      {hex('#FFEFD5').bold NPM: } {hex('#00BFFF') https://www.npmjs.com/~lashaunna191}
+  {hex('#FFEFD5').bold Stackoverflow: } {hex('#00BFFF') https://stackoverflow.com/users/10176472/shaunna191}
    {hex('#FFEFD5').bold Github: } {hex('#00BFFF') https://github.com/LashaunnaS}
- {hex('#FFEFD5').bold LinkedIn: } {hex('#00BFFF') https://www.linkedin.com/in/dyyyl/}
-      {hex('#FFEFD5').bold Web: } {hex('#00BFFF') https://dyyyl.rocks}
+ {hex('#FFEFD5').bold LinkedIn: } {hex('#00BFFF') https://www.linkedin.com/in/lashaunna-samuels/}
+      // {hex('#FFEFD5').bold Web: } {hex('#00BFFF') https://dyyyl.rocks}
 
      {hex('#FFEFD5').bold Card: } {hex('#FFEFD5') npx Lashaunna}`;
 
