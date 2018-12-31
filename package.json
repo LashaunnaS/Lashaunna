@@ -1,14 +1,14 @@
 {
   "name": "lashaunna",
   "version": "1.0.22",
-  "description": "A personal card for Lashaunna Samuels (@)",
+  "description": "A personal card for Lashaunna Samuels",
   "main": "index.js",
   "bin": {
     "lashaunna": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LashaunnaS/dyyyl.git"
+    "url": "https://github.com/LashaunnaS/lashaunna.git"
   },
   "author": "Lashaunna Samuels",
   "license": "MIT",
