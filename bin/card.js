@@ -12,7 +12,7 @@ const options = {
   borderStyle: "round",
 };
 
-const cardText = chalk`{hex('#fefeff') Lashaunna Samuels /} {hex('#87f1ff') @}
+const cardText = chalk`{hex('#fefeff') Lashaunna Samuels }
 
   {hex('#fefeff').bold Work:} {hex('#87f1ff') Curious Web Engineer}
   {hex('#fefeff').bold NPM:} {hex('#87f1ff') https://www.npmjs.com/~lashaunna191}
