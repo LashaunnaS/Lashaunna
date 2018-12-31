@@ -9,10 +9,11 @@ const chalk = require("chalk");
 const options = {
   padding: 1,
   margin: 1,
+  // backgroundColor: '#e7fafa',
   borderStyle: "round",
 };
 
-const cardText = chalk`{hex('#fefeff') Lashaunna Samuels }
+const cardText = chalk`{hex('#fefeff').bold Lashaunna Samuels }
 
   {hex('#fefeff').bold Work:} {hex('#87f1ff') Curious Web Engineer}
   {hex('#fefeff').bold NPM:} {hex('#87f1ff') https://www.npmjs.com/~lashaunna191}
@@ -22,4 +23,4 @@ const cardText = chalk`{hex('#fefeff') Lashaunna Samuels }
 
   {hex('#dfe5db').bold Card:} {hex('#87f1ff') npx Lashaunna}`;
 
-console.log(chalk.hex("#50723c")(boxen(cardText, options)));
+console.log(chalk.hex("#65a542")(boxen(cardText, options)));
