@@ -12,14 +12,14 @@ const options = {
   borderStyle: "round",
 };
 
-const cardText = chalk`{hex('#FFEFD5') Lashaunna Samuels /} {hex('#00BFFF') @}
+const cardText = chalk`{hex('#bffff1') Lashaunna Samuels /} {hex('#87f1ff') @}
 
-  {hex('#FFEFD5').bold Work:} {hex('#FFEFD5') Curious Web Engineer}
-  {hex('#FFEFD5').bold NPM:} {hex('#00BFFF') https://www.npmjs.com/~lashaunna191}
-  {hex('#FFEFD5').bold Stack:} {hex('#00BFFF') https://stackoverflow.com/users/10176472/lashaunnas}
-  {hex('#FFEFD5').bold Github:} {hex('#00BFFF') https://github.com/LashaunnaS}
-  {hex('#FFEFD5').bold LinkedIn:} {hex('#00BFFF') https://www.linkedin.com/in/lashaunna-samuels/}
+  {hex('#bffff1').bold Work:} {hex('#87f1ff') Curious Web Engineer}
+  {hex('#bffff1').bold NPM:} {hex('#87f1ff') https://www.npmjs.com/~lashaunna191}
+  {hex('#bffff1').bold Stack:} {hex('#87f1ff') https://stackoverflow.com/users/10176472/LashaunnaS}
+  {hex('#bffff1').bold Github:} {hex('#87f1ff') https://github.com/LashaunnaS}
+  {hex('#bffff1').bold LinkedIn:} {hex('#87f1ff') https://www.linkedin.com/in/lashaunna-samuels/}
 
-  {hex('#FFEFD5').bold Card:} {hex('#FFEFD5') npx Lashaunna}`;
+  {hex('#bffff1').bold Card:} {hex('#bffff1') npx Lashaunna}`;
 
-console.log(chalk.hex("#db7093")(boxen(cardText, options)));
+console.log(chalk.hex("#50723c")(boxen(cardText, options)));
