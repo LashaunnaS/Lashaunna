@@ -1,9 +1,9 @@
-It's me, Dyl!
+Lashaunna here!
 
 # Usage
 
 Via npx:
 
 ```
-npx dyyyl
+npx lashaunna
 ```

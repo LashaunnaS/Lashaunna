@@ -1,16 +1,16 @@
 {
-  "name": "dyyyl",
-  "version": "1.1.0",
-  "description": "A personal card for Dyl Reynard (@dyyyl)",
+  "name": "lashaunna",
+  "version": "1.0.0",
+  "description": "A personal card for Lashaunna Samuels (@)",
   "main": "index.js",
   "bin": {
-    "dyyyl": "./bin/card.js"
+    "lashaunna": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dyyyl/dyyyl.git"
+    "url": "https://github.com/LashaunnaS/dyyyl.git"
   },
-  "author": "Dyl Reynard",
+  "author": "Lashaunna Samuels",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
