@@ -2,8 +2,9 @@
 // 👆 Used to tell Node.js that this is a CLI tool
 
 // Pull in our modules
-const boxen = require("boxen");
-const chalk = require("chalk");
+import boxen from "boxen";
+import chalk from "chalk";
+import terminalLink from "terminal-link";
 
 // Define options for Boxen
 const options = {
@@ -12,14 +13,34 @@ const options = {
   borderStyle: "round",
 };
 
-const cardText = chalk`{hex('#fefeff').bold Lashaunna Samuels }
+const textColor = {
+  offWhite: chalk.hex("#fefeff"),
+  mintyFresh: chalk.hex("#87f1ff"),
+  spaceGrey: chalk.hex("#dfe5db"),
+  cyberGreen: chalk.hex("#65a542"),
+};
 
-  {hex('#fefeff').bold Work:} {hex('#87f1ff') Curious Web Engineer}
-  {hex('#fefeff').bold NPM:} {hex('#87f1ff') https://www.npmjs.com/~lashaunna191}
-  {hex('#fefeff').bold Stack:} {hex('#87f1ff') https://stackoverflow.com/users/10176472/LashaunnaS}
-  {hex('#fefeff').bold Github:} {hex('#87f1ff') https://github.com/LashaunnaS}
-  {hex('#fefeff').bold LinkedIn:} {hex('#87f1ff') https://www.linkedin.com/in/lashaunna-samuels/}
+const cardText = `${textColor.offWhite.bold("Lashaunna Samuels")}
 
-  {hex('#dfe5db').bold Card:} {hex('#87f1ff') npx lashaunna}`;
+${textColor.offWhite.bold("Work:")} ${textColor.mintyFresh(
+  "Front-End Engineer (Web | Native)"
+)}
+${textColor.offWhite.bold("Github:")} ${textColor.mintyFresh(
+  `${terminalLink("Github", "https://github.com/LashaunnaS")}`
+)}
+${textColor.offWhite.bold("LinkedIn:")} ${textColor.mintyFresh(
+  `${terminalLink("LinkedIn", "https://www.linkedin.com/in/lashaunna-samuels")}`
+)}
+${textColor.offWhite.bold("NPM:")} ${textColor.mintyFresh(
+  `${terminalLink("NPM", "https://www.npmjs.com/~lashaunna191")}`
+)}
+${textColor.offWhite.bold("Stack:")} ${textColor.mintyFresh(
+  `${terminalLink(
+    "Stack",
+    "https://stackoverflow.com/users/10176472/LashaunnaS"
+  )}`
+)}
 
-console.log(chalk.hex("#65a542")(boxen(cardText, options)));
+${textColor.spaceGrey.bold("Card:")} ${textColor.mintyFresh("npx lashaunna")}`;
+
+console.log(textColor.cyberGreen(boxen(cardText, options)));
