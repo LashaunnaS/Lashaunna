@@ -13,6 +13,7 @@ const options = {
   borderStyle: "round",
 };
 
+// Define custom text colors for Boxen
 const textColor = {
   offWhite: chalk.hex("#fefeff"),
   mintyFresh: chalk.hex("#87f1ff"),
@@ -20,6 +21,7 @@ const textColor = {
   cyberGreen: chalk.hex("#65a542"),
 };
 
+// Define boxen title as a template string 
 const cardText = `${textColor.offWhite.bold("Lashaunna Samuels")}
 
 ${textColor.offWhite.bold("Work:")} ${textColor.mintyFresh(
@@ -43,4 +45,5 @@ ${textColor.offWhite.bold("Stack:")} ${textColor.mintyFresh(
 
 ${textColor.spaceGrey.bold("Card:")} ${textColor.mintyFresh("npx lashaunna")}`;
 
+// Log result
 console.log(textColor.cyberGreen(boxen(cardText, options)));
