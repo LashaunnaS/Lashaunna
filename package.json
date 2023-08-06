@@ -8,7 +8,7 @@
     "lashaunna": "./bin/card.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@LashaunnaS:registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
