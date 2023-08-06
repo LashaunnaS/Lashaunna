@@ -1,9 +1,7 @@
-Lashaunna here!
+Hey🙋🏽‍♀️, checkout my personal business card.
 
 # Usage
-
-Via npx:
-
+In a terminal near you run the following command:
 ```
 npx lashaunna
 ```
