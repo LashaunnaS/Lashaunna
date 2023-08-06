@@ -1,8 +1,9 @@
 {
   "name": "lashaunna",
   "version": "1.0.26",
-  "description": "A personal card for Lashaunna Samuels",
+  "description": "Lashaunna Samuels', personal business card.",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "lashaunna": "./bin/card.js"
   },
@@ -13,8 +14,9 @@
   "author": "Lashaunna Samuels",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "terminal-link": "^3.0.0"
   },
   "devDependencies": {
     "standard": "^12.0.1"
