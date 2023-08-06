@@ -1,6 +1,6 @@
 {
   "name": "lashaunna",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Lashaunna Samuels', personal business card.",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,7 @@
     "lashaunna": "./bin/card.js"
   },
   "publishConfig": {
-     "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
