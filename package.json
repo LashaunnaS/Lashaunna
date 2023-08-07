@@ -9,9 +9,6 @@
   "bin": {
     "lashaunna": "./bin/card.js"
   },
-  "publishConfig": {
-    "@LashaunnaS:registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/LashaunnaS/lashaunna.git"
