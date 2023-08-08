@@ -1,5 +1,5 @@
 {
-  "name": "@LashaunnaS/lashaunna",
+  "name": "lashaunna",
   "version": "1.1.12",
   "author": "Lashaunna Samuels",
   "description": "Lashaunna Samuels, personal business card™️",
@@ -8,9 +8,6 @@
   "type": "module",
   "bin": {
     "lashaunna": "./bin/card.js"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
